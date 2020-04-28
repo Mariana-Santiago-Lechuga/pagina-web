@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/img1.jpg) no-repeat center top ;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh; 
+}
+.M-empleados{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+ }
+.M-empleados .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.M-empleados h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+ }
+ .M-empleados input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.M-empleados input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgba(219, 171, 14, 0.856);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+ }
+ .M-empleados input[type="button"]{
+    height: 40px;
+    background-color: g;
+    color: rgb(9, 114, 23);
+    font-size: 20px;
+
+ }
